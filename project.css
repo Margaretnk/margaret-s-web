@@ -1,0 +1,358 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; /*remove the underline from the links*/
+    list-style: none; /*remove the bullets from list*/
+    
+}
+
+
+/* Main Styles */
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    font-size: 16px;
+    background: #f8f8f8;
+    overflow-x: hidden;
+}
+
+/* Links */
+a {
+    color: #4a90e2;
+}
+
+a:hover {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+/* Navigation */
+.navbar {
+    padding: 20px 0;
+    transition: all 0.3s;
+}
+
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: all 0.3s;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #1abc9c;
+}
+
+/* Section Titles */
+.section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+
+/* Buttons */
+/* .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 15px;
+    color: #fff;
+    background: #1abc9c;
+    border: 2px solid #1abc9c;
+} */
+
+.btn-get-started:hover {
+    background: transparent;
+    color: #1abc9c;
+}
+
+
+/* Continuous slide-in from the right and slide-out to the left animation keyframes */
+@keyframes slideInOut {
+    0% {
+        transform: translateX(100%);
+        /* opacity: 0; */
+    }
+    25% {
+        transform: translateX(0); 
+        /* opacity: 1;
+    }
+    75% {
+        transform: translateX(-100%);
+        /* opacity: 0; */
+    }
+    100% {
+        transform: translateX(-200%);
+        /* opacity: 0; */
+    }
+}
+
+/* Applying the continuous slide-in and slide-out animation to the element */
+.slide-in-out {
+    animation: slideInOut 15s linear infinite;
+}
+
+
+
+
+
+/* Forms for Appointments/consultation */
+ .appointment {
+    /* background: url("../images/appointment-bg.jpg") center center no-repeat; */
+    /* background-size: cover; */
+    padding: 60px 0;
+ }
+
+.appointment input,
+.appointment select,
+.appointment textarea {
+    border: 2px inset #001f3f; /* Navy blue */
+    padding: 18px 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+
+
+
+/* .appointment input::placeholder,
+.appointment select::placeholder,
+.appointment textarea::placeholder {
+    color: red;
+} */
+
+
+.appointment button[type="submit"] {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 24px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 15px;
+    margin-bottom: 55px;
+    background: #1abc9c;
+    border: 2px solid #1abc9c;
+}
+
+.appointment button[type="submit"]:hover {
+    background: transparent;
+    color: #1abc9c;
+} 
+
+/* Contact Us Section */
+.contact {
+    /* background: url("Bags-collection/lunchbox-collection.jpg") center center no-repeat;
+    background-size: cover; */
+    padding: 60px 0;
+    
+} 
+
+
+/* styling the ingo div inside of my contact */
+.contact .info {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact .info i {
+    font-size: 32px;
+    color: #1abc9c;
+    float: left;
+    line-height: 1;
+    margin-right: 20px;
+}
+
+.contact .info h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact .info p {
+    font-size: 16px;
+}
+
+.contact .php-email-form {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+} */
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: none;
+    background: #f8f8f8;
+}
+
+/* styling the submit button of the contact us box(send message) */
+.send-message{
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 15px;
+    color: #fff;
+    background: #1abc9c;
+    border: 2px solid #1abc9c;
+}
+
+.send-message:hover{
+    background: transparent;
+    color: #1abc9c;
+}
+
+
+/* Footer */
+#footer {
+    background: #333;
+    padding: 10px 0; /* Adjust padding as needed */
+    color: #fff;
+    margin: 0; /* Ensure there's no extra margin */
+}
+
+#footer h3 {
+    font-size: 24px;
+    /* margin: 0 0 20px 0; margin:top, right, bottom and left */
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 500;
+}
+
+#footer p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+#footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #1abc9c;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+    background: #1abc9c;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer Form */
+#footer form .input-group-text {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#footer form .input-group-text i {
+    font-size: 20px;
+}
+
+#footer form .form-control {
+    border-radius: 5px 0 0 5px;
+}
+
+#footer form input[type="email"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+/* Button */
+.btn {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+/* Back to Top Button */
+ /* .back-to-top {
+    position: fixed;
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: #1abc9c;
+    color: #fff;
+    border-radius: 50px;
+    right: 15px;
+    bottom: 15px;
+    transition: display 0.5s ease-in-out;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.back-to-top i {
+    font-size: 24px;
+}  */
+
+
+/* styling the icons on the footer for the delivery, pay cash on delivery */
+.additional-info p {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.additional-info i {
+    margin-right: 5px;
+    transition: color 0.4s, transform 1.0s; /* Smooth transition for color and transform changes */
+}
+.additional-info p:hover {
+    color: #1abc9c;
+    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+}
