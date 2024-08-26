@@ -1514,7 +1514,7 @@ let shopItemsData = [
         description: "Handbag",
         category: "Bags",
         originalPrice: 12000,
-        imageUrl: "./Bags-Collection/handbag4-8k.jpg",
+        imageUrl: "./Bags-collection/handbag4-8k.jpg",
        
       },
       {
@@ -1847,7 +1847,6 @@ let shopItemsData = [
     category: "Bags",
     originalPrice: 5000,
     imageUrl: "./Bags-collection/waistbag-5k.jpg",
-    rating: 5,
   
   },
   {
