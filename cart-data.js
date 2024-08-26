@@ -1379,7 +1379,7 @@ let shopItemsData = [
         description: "Beautiful Ankara chainbag",
         category: "Bags",
         originalPrice: 18000,
-        imageUrl: "./Bags-Collection/ankara-chainbag-18k.jpg",
+        imageUrl: "./Bags-collection/ankara-chainbag-18k.jpg",
         
       },
       {
@@ -1388,7 +1388,7 @@ let shopItemsData = [
         description: "Beautiful Ankara Handbag",
         category: "Bags",
         originalPrice: 22500,
-        imageUrl: "./Bags-Collection/ankara-handbag-22500.jpg",
+        imageUrl: "./Bags-collection/ankara-handbag-22500.jpg",
         
       },
       {
@@ -1397,7 +1397,7 @@ let shopItemsData = [
         description: "Beautiful Ankara toileries bag",
         category: "Bags",
         originalPrice: 1500,
-        imageUrl: "./Bags-Collection/ankara-toileteriesbag-1k.jpg",
+        imageUrl: "./Bags-collection/ankara-toileteriesbag-1k.jpg",
         
       },
       {
@@ -1406,7 +1406,7 @@ let shopItemsData = [
         description: "Beautiful Ankara Tote-bag",
         category: "Bags",
         originalPrice: 1500,
-        imageUrl: "./Bags-Collection/ankara-totebag-1500.jpg",
+        imageUrl: "./Bags-collection/ankara-totebag-1500.jpg",
         
       },
       {
@@ -1415,7 +1415,7 @@ let shopItemsData = [
         description: "Beautiful Ankara chain-bag",
         category: "Bags",
         originalPrice: 9000,
-        imageUrl: "./Bags-Collection/ankarabag-8k.jpg",
+        imageUrl: "./Bags-collection/ankarabag-8k.jpg",
         
       },
       {
@@ -1424,7 +1424,7 @@ let shopItemsData = [
         description: "Beautiful Aso-oke Handbag",
         category: "Bags",
         originalPrice: 35000,
-        imageUrl: "./Bags-Collection/aso-oke-handbag-35k.jpg",
+        imageUrl: "./Bags-collection/aso-oke-handbag-35k.jpg",
         
       },
       {
@@ -1433,7 +1433,7 @@ let shopItemsData = [
         description: "Crossbag",
         category: "Bags",
         originalPrice: 4500,
-        imageUrl: "./Bags-Collection/crossbag-3500.jpg",
+        imageUrl: "./Bags-collection/crossbag-3500.jpg",
         
       },
       {
@@ -1442,7 +1442,7 @@ let shopItemsData = [
         description: "Crossbag",
         category: "Bags",
         originalPrice: 5500,
-        imageUrl: "./Bags-Collection/crossbag-4500.jpg",
+        imageUrl: "./Bags-collection/crossbag-4500.jpg",
         
       },
       {
@@ -1451,7 +1451,7 @@ let shopItemsData = [
         description: "Crossbag (white)",
         category: "Bags",
         originalPrice: 6500,
-        imageUrl: "./Bags-Collection/crossbag-purse-5k.jpg",
+        imageUrl: "./Bags-collection/crossbag-purse-5k.jpg",
         
       },
       {
@@ -1460,7 +1460,7 @@ let shopItemsData = [
         description: "Chain bag (black)",
         category: "Bags",
         originalPrice: 6500,
-        imageUrl: "./Bags-Collection/handbag-5k.jpg",
+        imageUrl: "./Bags-collection/handbag-5k.jpg",
         
       },
       {
@@ -1469,7 +1469,7 @@ let shopItemsData = [
         description: "Handbag (yellow)",
         category: "Bags",
         originalPrice: 5000,
-        imageUrl: "./Bags-Collection/handbag-4500.jpg",
+        imageUrl: "./Bags-collection/handbag-4500.jpg",
        
       },
       {
@@ -1478,7 +1478,7 @@ let shopItemsData = [
         description: "Handbag",
         category: "Bags",
         originalPrice: 7000,
-        imageUrl: "./Bags-Collection/handbag-supreme-13k.jpg",
+        imageUrl: "./Bags-collection/handbag-supreme-13k.jpg",
         
       },
       {
@@ -1487,7 +1487,7 @@ let shopItemsData = [
         description: "Chain Handbag",
         category: "Bags",
         originalPrice: 12000,
-        imageUrl: "./Bags-Collection/handbag1.jpg",
+        imageUrl: "./Bags-collection/handbag1.jpg",
        
       },
       {
@@ -1496,7 +1496,7 @@ let shopItemsData = [
         description: "Chain Handbag",
         category: "Bags",
         originalPrice: 15000,
-        imageUrl: "./Bags-Collection/handbag2.jpg",
+        imageUrl: "./Bags-collection/handbag2.jpg",
        
       },
       {
@@ -1505,7 +1505,7 @@ let shopItemsData = [
         description: "Handbag",
         category: "Bags",
         originalPrice: 15000,
-        imageUrl: "./Bags-Collection/handbag3.jpg",
+        imageUrl: "./Bags-collection/handbag3.jpg",
        
       },
       {
@@ -1523,7 +1523,7 @@ let shopItemsData = [
         description: "Handbag",
         category: "Bags",
         originalPrice: 18000,
-        imageUrl: "./Bags-Collection/handbag5-18k.jpg",
+        imageUrl: "./Bags-collection/handbag5-18k.jpg",
        
     },
     {
@@ -1532,7 +1532,7 @@ let shopItemsData = [
         description: "Handbag (white)",
         category: "Bags",
         originalPrice: 6000,
-        imageUrl: "./Bags-Collection/handbag6-5k.jpg",
+        imageUrl: "./Bags-collection/handbag6-5k.jpg",
        
     },
     {
@@ -1541,7 +1541,7 @@ let shopItemsData = [
         description: "Insulated Lunch box",
         category: "Bags",
         originalPrice: 12000,
-        imageUrl: "./Bags-Collection/lunch-supreme-15k.jpg",
+        imageUrl: "./Bags-collection/lunch-supreme-15k.jpg",
         
     },
     {
@@ -1550,7 +1550,7 @@ let shopItemsData = [
         description: "Insulated Lunch box",
         category: "Bags",
         originalPrice: 10000,
-        imageUrl: "./Bags-Collection/lunchbox-6k.jpg",
+        imageUrl: "./Bags-collection/lunchbox-6k.jpg",
         
     },
     {
@@ -1559,7 +1559,7 @@ let shopItemsData = [
         description: "Lunch box",
         category: "Bags",
         originalPrice: 7000,
-        imageUrl: "./Bags-Collection/lunchbox-7k.jpg",
+        imageUrl: "./Bags-collection/lunchbox-7k.jpg",
      
     },
     {
@@ -1568,7 +1568,7 @@ let shopItemsData = [
         description: "Insulated Lunch box (ash)",
         category: "Bags",
         originalPrice: 14000,
-        imageUrl: "./Bags-Collection/lunchbox-collection.jpg",
+        imageUrl: "./Bags-collection/lunchbox-collection.jpg",
         
     },
     {
@@ -1577,7 +1577,7 @@ let shopItemsData = [
         description: "Insulated Lunch box (pink)",
         category: "Bags",
         originalPrice: 12000,
-        imageUrl: "./Bags-Collection/lunchbox-pink-12k.jpg",
+        imageUrl: "./Bags-collection/lunchbox-pink-12k.jpg",
        
     },
     {
@@ -1586,7 +1586,7 @@ let shopItemsData = [
       description: "Insulated Lunch box",
       category: "Bags",
       originalPrice: 7000,
-      imageUrl: "./Bags-Collection/lunchbox4-4k.jpg",
+      imageUrl: "./Bags-collection/lunchbox4-4k.jpg",
      
   },
   {
@@ -1595,7 +1595,7 @@ let shopItemsData = [
       description: "Lunch box",
       category: "Bags",
       originalPrice: 6500,
-      imageUrl: "./Bags-Collection/lunchbox6-6500.jpg",
+      imageUrl: "./Bags-collection/lunchbox6-6500.jpg",
      
   },
   {
@@ -1604,7 +1604,7 @@ let shopItemsData = [
       description: "Purse(brown)",
       category: "Bags",
       originalPrice: 5000,
-      imageUrl: "./Bags-Collection/purse-collection.jpg",
+      imageUrl: "./Bags-collection/purse-collection.jpg",
   },
   {
       id: "gw",
@@ -1612,7 +1612,7 @@ let shopItemsData = [
       description: "Purse(N500 per 1. Dozen:6k)",
       category: "Bags",
       originalPrice: 6000,
-      imageUrl: "./Bags-Collection/purse-souvenir-500.jpg",
+      imageUrl: "./Bags-collection/purse-souvenir-500.jpg",
      
   },
   {
@@ -1621,7 +1621,7 @@ let shopItemsData = [
       description: "Purse & Handbag",
       category: "Bags",
       originalPrice: 13000,
-      imageUrl: "./Bags-Collection/purse1-9k.jpg",
+      imageUrl: "./Bags-collection/purse1-9k.jpg",
       
   },
   {
@@ -1639,7 +1639,7 @@ let shopItemsData = [
       description: "Backpack/School bag",
       category: "Bags",
       originalPrice: 6500,
-      imageUrl: "./Bags-Collection/schoolbag-4k.jpg",
+      imageUrl: "./Bags-collection/schoolbag-4k.jpg",
       
     },
     {
@@ -1648,7 +1648,7 @@ let shopItemsData = [
       description: "School bag",
       category: "Bags",
       originalPrice: 5000,
-      imageUrl: "./Bags-Collection/schoolbag-5k.jpg",
+      imageUrl: "./Bags-collection/schoolbag-5k.jpg",
       
     },
     {
@@ -1657,7 +1657,7 @@ let shopItemsData = [
       description: "Ankara School bag",
       category: "Bags",
       originalPrice: 10000,
-      imageUrl: "./Bags-Collection/schoolbag-10k.jpg",
+      imageUrl: "./Bags-collection/schoolbag-10k.jpg",
       
     },
     {
@@ -1666,7 +1666,7 @@ let shopItemsData = [
         description: "School bag",
         category: "Bags",
         originalPrice: 10000,
-        imageUrl: "./Bags-Collection/schoolbag-11k.jpg",
+        imageUrl: "./Bags-collection/schoolbag-11k.jpg",
        
     },
     {
@@ -1675,7 +1675,7 @@ let shopItemsData = [
         description: "School bag (black)",
         category: "Bags",
         originalPrice: 18000,
-        imageUrl: "./Bags-Collection/schoolbag-collection.jpg",
+        imageUrl: "./Bags-collection/schoolbag-collection.jpg",
         
     },
     {
@@ -1684,7 +1684,7 @@ let shopItemsData = [
         description: "School bag",
         category: "Bags",
         originalPrice: 12000,
-        imageUrl: "./Bags-Collection/schoolbag-supreme-15k.jpg",
+        imageUrl: "./Bags-collection/schoolbag-supreme-15k.jpg",
       
     },
     {
@@ -1693,7 +1693,7 @@ let shopItemsData = [
         description: "School bag",
         category: "Bags",
         originalPrice: 15000,
-        imageUrl: "./Bags-Collection/schoolbag-supreme-19k.jpg",
+        imageUrl: "./Bags-collection/schoolbag-supreme-19k.jpg",
         
     },
     {
@@ -1702,7 +1702,7 @@ let shopItemsData = [
         description: "Schoolbag, purse and traveling bag",
         category: "Bags",
         originalPrice: 20000,
-        imageUrl: "./Bags-Collection/schoolbag-travelingbag-purse-20k.jpg",
+        imageUrl: "./Bags-collection/schoolbag-travelingbag-purse-20k.jpg",
         
     },
     {
@@ -1711,7 +1711,7 @@ let shopItemsData = [
         description: "School bag",
         category: "Bags",
         originalPrice: 11000,
-        imageUrl: "./Bags-Collection/schoolbag2-11k.jpg",
+        imageUrl: "./Bags-collection/schoolbag2-11k.jpg",
        
     },
     {
@@ -1720,7 +1720,7 @@ let shopItemsData = [
       description: "School bag",
       category: "Bags",
       originalPrice: 5000,
-      imageUrl: "./Bags-Collection/schoolbag7-6k.jpg",
+      imageUrl: "./Bags-collection/schoolbag7-6k.jpg",
      
   },
   {
@@ -1729,7 +1729,7 @@ let shopItemsData = [
       description: "School bag",
       category: "Bags",
       originalPrice: 7500,
-      imageUrl: "./Bags-Collection/schoolbag8-7500.jpg",
+      imageUrl: "./Bags-collection/schoolbag8-7500.jpg",
       rating: 5,
       
   },
@@ -1739,7 +1739,7 @@ let shopItemsData = [
       description: "School bag",
       category: "Bags",
       originalPrice: 5500,
-      imageUrl: "./Bags-Collection/schoolbag12-5500.jpg",
+      imageUrl: "./Bags-collection/schoolbag12-5500.jpg",
      
   },
   {
@@ -1748,7 +1748,7 @@ let shopItemsData = [
       description: "School bag",
       category: "Bags",
       originalPrice: 3000,
-      imageUrl: "./Bags-Collection/souvenir-bag-3k.jpg",
+      imageUrl: "./Bags-collection/souvenir-bag-3k.jpg",
       
   },
   {
@@ -1757,7 +1757,7 @@ let shopItemsData = [
     description: "Sovenir bags (36pieces)",
     category: "Bags",
     originalPrice: 36000,
-    imageUrl: "./Bags-Collection/souvenir-bags-collection.jpg",
+    imageUrl: "./Bags-collection/souvenir-bags-collection.jpg",
     
   },
   {
@@ -1766,7 +1766,7 @@ let shopItemsData = [
     description: "Sovenir purse (100pieces)",
     category: "Bags",
     originalPrice: 50000,
-    imageUrl: "./Bags-Collection/souvenir-purses.jpg",
+    imageUrl: "./Bags-collection/souvenir-purses.jpg",
     
   },
   {
@@ -1775,7 +1775,7 @@ let shopItemsData = [
     description: "2 Tote bags(black and red)",
     category: "Bags",
     originalPrice: 4500,
-    imageUrl: "./Bags-Collection/tote-bag2-4k.jpg",
+    imageUrl: "./Bags-collection/tote-bag2-4k.jpg",
     
   },
   {
@@ -1784,7 +1784,7 @@ let shopItemsData = [
     description: "Tote bag",
     category: "Bags",
     originalPrice: 3000,
-    imageUrl: "./Bags-Collection/tote-bag5-3000.jpg",
+    imageUrl: "./Bags-collection/tote-bag5-3000.jpg",
     
   },
   {
@@ -1793,7 +1793,7 @@ let shopItemsData = [
     description: "Tote bag",
     category: "Bags",
     originalPrice: 3000,
-    imageUrl: "./Bags-Collection/tote-bag7-5500.jpg",
+    imageUrl: "./Bags-collection/tote-bag7-5500.jpg",
    
   },
   {
@@ -1802,7 +1802,7 @@ let shopItemsData = [
     description: "Tote bag",
     category: "Bags",
     originalPrice: 4000,
-    imageUrl: "./Bags-Collection/tote-bag8-4k.jpg",
+    imageUrl: "./Bags-collection/tote-bag8-4k.jpg",
     
   },
   {
@@ -1811,7 +1811,7 @@ let shopItemsData = [
     description: "Tote bag (leather: brown)",
     category: "Bags",
     originalPrice: 12000,
-    imageUrl: "./Bags-Collection/totebag-leather-12500.jpg",
+    imageUrl: "./Bags-collection/totebag-leather-12500.jpg",
     
   },
   {
@@ -1820,7 +1820,7 @@ let shopItemsData = [
     description: "Tote bag",
     category: "Bags",
     originalPrice: 4000,
-    imageUrl: "./Bags-Collection/totebag-use-4k.jpg",
+    imageUrl: "./Bags-collection/totebag-use-4k.jpg",
    
   },
   {
@@ -1829,7 +1829,7 @@ let shopItemsData = [
     description: "Fancy Tote bag",
     category: "Bags",
     originalPrice: 5000,
-    imageUrl: "./Bags-Collection/totebag9-6k.jpg",
+    imageUrl: "./Bags-collection/totebag9-6k.jpg",
    
   },
   {
@@ -1838,7 +1838,7 @@ let shopItemsData = [
     description: "Traveling bag and purse",
     category: "Bags",
     originalPrice: 11000,
-    imageUrl: "./Bags-Collection/traveling bags.jpg",
+    imageUrl: "./Bags-collection/traveling bags.jpg",
   
   },
   {
@@ -1847,7 +1847,7 @@ let shopItemsData = [
     description: "Traveling bag",
     category: "Bags",
     originalPrice: 7000,
-    imageUrl: "./Bags-Collection/travelingbag2-12k.jpg",
+    imageUrl: "./Bags-collection/travelingbag2-12k.jpg",
   
   },
   {
@@ -1856,7 +1856,7 @@ let shopItemsData = [
     description: "Waist bag",
     category: "Bags",
     originalPrice: 5000,
-    imageUrl: "./Bags-Collection/waistbag-5k.jpg",
+    imageUrl: "./Bags-collection/waistbag-5k.jpg",
     rating: 5,
   
   },
