@@ -80,7 +80,7 @@
   /* The parent div housing the 4 item divs */
   .shop {
     display: grid;
-    grid-template-columns: repeat(5, 300px);/* i.e the numbers of grid wanted and d size of each */
+    grid-template-columns: repeat(4, 300px);/* i.e the numbers of grid wanted and d size of each */
     gap: 35px; /* gap in-between each item div*/
     justify-content: center;
     margin-bottom: 50px;
