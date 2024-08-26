@@ -1622,16 +1622,6 @@ let shopItemsData = [
       category: "Bags",
       originalPrice: 13000,
       imageUrl: "./Bags-collection/purse1-9k.jpg",
-      
-  },
-  {
-      id: "gy",
-      name: "Lunch box",
-      description: "School bag & Lunch box",
-      category: "Bags",
-      originalPrice: 10000,
-      imageUrl: "./Bags-Collection/school-lunchbox-10k.jpg",
-     
   },
     {
       id: "gz",
