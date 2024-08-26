@@ -1,0 +1,67 @@
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+/* desinging the cart main body */
+.cart{
+    height: 67.5vh !important;
+    overflow: hidden;
+}
+
+
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.cart-item div {
+    flex-grow: 1;
+}
+
+.cart-item h5 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.cart-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* ! Designing the -, + and counter */
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-weight: bold;
+    /* justify-content: center; */
+}
+
+/* ?  Styling the plus and minus signs to address */
+.bi-dash-lg{
+    color: orange;
+}
+
+.bi-plus-lg{
+    color: orange;
+}
+
+/* Media queries for footer and navbar */
+/* Media query for tablets and smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+    
+}
+
+/* Media query for mobile phones and very small screens (max-width: 480px) */
+@media (max-width: 480px) {
+    
+}

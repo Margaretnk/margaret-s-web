@@ -1,0 +1,377 @@
+/**
+* ! Changing default styles of the browser
+**/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto+Slab&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* to ensure that all i add here fits into the box or hosting div */
+    text-decoration: none;
+    list-style: none; /* Remove bullets from lists */
+  }
+  
+  body {
+    font-family: 'Lora', serif; /* Default font */
+    font-family: 'Roboto Slab', serif; /* Imported google font*/
+  }
+  
+
+  /* targetting all d icons in html document */
+  i {
+    cursor: pointer;
+  }
+  
+
+  /* styling the a href */
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  /**
+  * ! Navbar Styles are here
+  **/
+  
+  /** 
+  *? styling my navbar of the shopping cart 
+  **/
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40 !important; /*gotten from coolors.com */
+    color: white !important;
+    padding: 30px 60px; /* top and bottom; left and right*/
+    margin-bottom: 35px;
+  }
+  
+
+  /* styling the cart basket */
+  .cart {
+    position: relative;
+    background-color: #fff;
+    color: #212529;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  
+  .cartAmount {
+    position: absolute;
+    top: -15px;
+    right: -9.5px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+  }
+  
+  /**
+  * ! Shop items styles are here
+  **/
+  
+  /* The parent div housing the 4 item divs */
+  .shop {
+    display: grid;
+    grid-template-columns: repeat(5, 300px);/* i.e the numbers of grid wanted and d size of each */
+    gap: 35px; /* gap in-between each item div*/
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  /* setting up the media query to fits different screen sizes */
+  @media (max-width: 1000px) {
+    .shop {
+      grid-template-columns: repeat(2, 223px); /*2 grids with a size of 223px*/
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .shop {
+      grid-template-columns: repeat(1, 223px);
+    }
+  }
+  
+
+  /* styling the div of each item div */
+  .item {
+    border: 3px solid #212529;
+    border-radius: 4px;
+  }
+
+  /* styling the img inside each of the 4 item divs */
+  .item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 2px 2px 0 0;
+  }
+  
+  /* styling the details that houses the information of each item after the image */
+  .details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px; /* gap in between the price and the plus/minus*/
+  }
+  
+
+  /* styling the parent of the price tag and buttons */
+  .price-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* aligns items horizontally*/
+    align-items: center; /*aligns item vertically */
+  }
+  
+
+  /* styling the buttons(plus, minus and minus) */
+  .buttons {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 18px;
+  }
+  
+  /* styling the minus in the buttons */
+  .bi-dash-lg {
+    color: red;
+  }
+  
+  /* styling the plus in the buttons */
+  .bi-plus-lg {
+    color: green;
+  }
+  
+  
+  /**
+  * ! style rules for label and some buttons in the cart-pag.js
+  **/
+  /* div with id label has class of text-center */
+  .text-center {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+
+  /* styling the div with class HomeBtn(inside cartpage.js), checkout, etc */
+  .HomeBtn,
+  .checkout,
+  .removeAll {
+    background-color: #212529;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  /* styling the image to have same width in the cart-page*/
+  .picture{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 2px 2px 0 0;
+  }
+  
+  /* Styling the checkout button designed in the cart-page.js */
+  .checkout {
+    background-color: green;
+    font-size: 18px;
+    padding: 12px;
+    margin-right: 7px;
+  }
+
+  /* Styling the clear cart from the cart-page.js */
+  .removeAll {
+    background-color: red;
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  /* styling the icon (x) inside the cartpage.js before the checkout */
+  .bi-x-lg {
+    color: red;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+
+
+  /**
+  * ! style rules for shopping-cart labels and its details
+  **/
+  /* The cartpage.js output setup */
+  .shopping-cart {
+    display: grid;
+    grid-template-columns: repeat(2, 380px);
+    justify-content: center;
+    gap: 30px; /**? just like applying the margin buttom */
+  }
+
+  /* media query for shopping-cart */
+  @media (max-width: 500px) {
+    .shopping-cart {
+      grid-template-columns: repeat(1, 223px);
+      gap: 15px;
+      justify-content: center;
+    }
+  }
+
+  
+  /**
+  * ! style rules for cart-item
+  **/
+  /* Styling the border of the items at the cart-page.js */
+  .cart-item {
+    border: 2px solid #212529;
+    border-radius: 7px;
+    display: flex;
+  }
+  
+  /* styling the div that contains the name, X and price details in the cart-page.js */
+  .title-price-x {
+    width: 185px; /*width of the div with the name and price*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+  }
+  
+  /* styling the div with only price and name inside the title-price-x */
+  .title-price {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* gap between d name and price horizontally*/
+  }
+  
+  /* styling the p with only price inside the title-price */
+  .cart-item-price {
+    background-color: #212529;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 6px; /*up and down; left and right*/
+  }
+  
+
+
+  /* Styling the menu-bar or select buttons at the top of the navbar */
+.menu-bar {
+  display: flex; /* Use flexbox to lay out children in a row */
+  flex-direction: row; /* Ensure the direction is row-wise */
+  justify-content: space-around; /* Space out items evenly */
+  align-items: center; /* Center items vertically */
+  gap: 20px; /*Add space between the items */
+}
+
+
+.menu-bar li {
+  display: inline; /* Make list items display inline */
+}
+
+.menu-bar a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Set link color to white */
+  padding: 10px 15px; /* Padding around the links */
+  font-size: 18px; /* Set font size for better readability */
+  border-radius: 5px; /* Optional: Round the corners of the links */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.menu-bar a:hover {
+  background-color: #495057; /* Change background color on hover */
+}
+
+
+/* Footer Styles */
+/* Basic styling for the footer */
+.footer-div {
+  background-color: #212529;
+  color: white;
+  padding: 20px 60px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Ensure the row spans full width */
+.footer-div .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Ensure each column takes up equal space and aligns properly */
+.footer-div .col-lg-4,
+.footer-div .col-md-6 {
+  flex: 1;
+  padding: 0 15px;
+}
+
+/* Optional: Adjust the spacing between columns */
+.footer-div .col-lg-4 {
+  margin: 0 15px;
+}
+
+/* Footer links and additional styling */
+.footer-div a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.footer-div a:hover {
+  color: white;
+}
+
+/* Additional styling for social links and subscription form */
+.footer-div .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-div .additional-info {
+  margin-top: 15px;
+}
+
+.footer-div .additional-info p {
+  margin: 5px 0;
+}
+
+/* Style for the search box in the footer */
+footer .input-group {
+  max-width: 400px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the search box */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically center items */
+}
+
+footer .form-control {
+  border-radius: 5px; /* Rounded corners */
+  border: 2px solid #ccc; /* Light border */
+  padding: 10px 20px; /* Add padding */
+  width: 100%; /* Use available width */
+  font-size: 16px; /* Increase font size */
+  margin-right: 10px; /* Space between input and button */
+}
+
+footer .btn-primary {
+  border-radius: 5px; /* Match rounded corners */
+  padding: 10px 20px; /* Add padding */
+  font-size: 16px; /* Increase font size */
+  background-color: #007bff; /* Primary button color */
+  border: none; /* Remove border */
+}
+
+footer .btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}

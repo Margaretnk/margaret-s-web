@@ -1,0 +1,872 @@
+/**
+* ! Changing default styles of the browser
+**/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto+Slab&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* to ensure that all i add here fits into the box or hosting div */
+    text-decoration: none;
+    list-style: none; /* Remove bullets from lists */
+}
+  
+body {
+    font-family: 'Lora', serif; /* Default font */
+    font-family: 'Roboto Slab', serif; /* Imported google font*/
+}
+  
+
+/* Custom CSS for Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space out the elements */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between; /* Space out items inside the container */
+    align-items: center; /* Vertically center items */
+    width: 100%; /* Ensure the container takes full width */
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    justify-content: center; /* Center nav links */
+    flex-grow: 1; /* Allow the nav links to grow and take space */
+}
+
+.navbar .navbar-nav .nav-item {
+    margin: 0 10px; /* Space between nav items */
+}
+
+.navbar .login {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.navbar .btn {
+    margin-left: 10px; /* Space between buttons */
+}
+
+
+
+/* Footer Styles */
+/* Footer Styles */
+footer {
+    background-color: #212529; /* Dark background to match header */
+    color: white; /* Text color */
+    padding: 20px 0; /* Vertical padding around content */
+    width: 100%; /* Full width */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the container horizontally */
+}
+
+.container {
+    max-width: 1200px; /* Max width for container */
+    width: 100%; /* Full width of the container */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack rows vertically */
+}
+
+.row {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute columns evenly */
+    align-items: flex-start; /* Align items at the start of the container */
+}
+
+.col-lg-4, .col-md-6 {
+    flex: 1; /* Allow columns to grow equally */
+    padding: 0 15px; /* Horizontal padding around columns */
+}
+
+.col-lg-4 {
+    max-width: 33.333%; /* Limit the width of each column */
+}
+
+h3, h4 {
+    margin-bottom: 15px; /* Space below headings */
+}
+
+p {
+    margin: 10px 0; /* Space between paragraphs */
+}
+
+.social-links a {
+    margin: 0 10px; /* Space between social media icons */
+    color: #adb5bd; /* Color of social media icons */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.social-links a:hover {
+    color: white; /* Change color on hover */
+}
+
+.input-group {
+    margin-top: 15px; /* Space above the input group */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-lg-4, .col-md-6 {
+        max-width: 100%; /* Full width for smaller screens */
+    }
+}
+
+  
+
+
+  /* Utility classes for layout */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .col-md-3, .col-md-6, .col-md-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar .nav-link:hover {
+    color: #1abc9c;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    padding: 10px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    color: #fff;
+}
+
+/* Specific button styles */
+.btn-login {
+    color: white !important;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-right: 2px;
+    font-size: 17px !important;
+    /* margin-bottom: 20px; */
+}
+
+
+
+.btn-signup {
+    color: white !important;
+}
+
+.btn-login:hover{
+    /* background-color: white !important; */
+    color:  #1abc9c !important;
+    border: 1px white solid !important;
+}
+    
+
+/* Card styles */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Star Rating */
+.star-rating {
+    font-size: 18px;
+}
+
+.star {
+    color: #ddd;
+}
+
+.star.filled {
+    color: #F68B1E;
+}
+
+/* Custom line */
+.custom-line {
+    height: 4px;
+    background-color: orange;
+    position: relative;
+    margin: 20px 0;
+}
+
+.custom-line::before,
+.custom-line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.custom-line::before {
+    left: -10px;
+}
+
+.custom-line::after {
+    right: -10px;
+}
+
+/* Add to Cart button */
+.add-to-cart-btn {
+    display: none;
+}
+
+.hover-scale:hover .add-to-cart-btn {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #1abc9c;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Cart and navbar adjustments */
+.secondary-navbar .secondary-icon {
+    margin-left: auto;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.secondary-navbar .secondary-icon a:hover {
+    color: #1abc9c !important;
+}
+
+
+/* Background color for custom gray areas */
+.bg-custom-gray-medium {
+    background-color: #e0e0e0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .pro-select .card .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+
+/* Signup design here */
+.btn-signup{
+    /* border: 2px white solid !important; */
+    color: white !important;
+    padding: 10px 30px;
+    font-size: 17px !important;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+
+/* Hover of the signup */
+.btn-signup:hover{
+    color:  #1abc9c !important;
+    /* border: 2px red solid !important; */
+}
+
+
+/* Working on the cart not to move to the next line when items are added to cart */
+.secondary-navbar .secondary-icon {
+    margin-left: auto;
+}
+
+
+
+/* Custom styles for the secondary navbar */
+.secondary-navbar .navbar-toggler {
+    border-color: black; /* Color for hamburger menu */
+    margin-right: 5px;
+}
+
+/* Styling for secondary icons */
+.secondary-icon {
+    margin-left: 30px; /* Adjust spacing between icons */
+    display: inline-block; /* Ensures the div is inline-block for proper hover effect */
+    padding: 10px; /* Add padding to make the hover area larger */
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for secondary icons */
+/* .secondary-icon:hover {
+    color: #1abc9c; 
+} */
+
+/* Hover for the help and add to cart text inside the div */
+.secondary-icon a:hover {
+    color: #1abc9c !important; /* Change text color on hover */
+}
+
+/* Custom styles for the search input and icon */
+.with-search-icon {
+    background-image: url('project-images/icons8-search-50.png'); 
+    /* URL for the search icon image downloaded from icons8.com */
+    background-repeat: no-repeat;
+    background-size: 25px; 
+    background-position: 10px center; /* Positioning inside the box */
+    text-indent: 32px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+    padding-left: 2.5rem; /* Ensure text doesn't overlap with the icon */
+}
+
+
+/* styling the inside images of the page */
+ /* customizing my background colour */
+ .bg-custom-gray-medium {
+    background-color: #e0e0e0; /* Light gray */
+}
+
+
+/* Custom hover effect */
+.hover-scale:hover {
+transform: scale(1.009); /* Adjust the scale/increase in size as needed */
+    transition: transform 0.5s ease-in-out; /* Adjust the transition speed */
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2); /* Adjust the box shadow color and intensity */
+}
+
+/* styling the container with the advert div of clothes, bags and materials div1-6 */
+.container-advert{
+    width: 100%;
+    /* background-color: black !important; */
+}
+
+
+/* <!-- Adding the segment for the side selection and item display --> */
+ /* customizing my background colour */
+ .bg-custom-gray-medium {
+    background-color: #e0e0e0; /* Light gray */
+}
+
+/* styling my hover for the sort by */
+.hover:hover{
+    color: #F68B1E;
+}
+
+.custom-search {
+border-radius: 10px; /* Adjust the border radius as needed */
+width: 50px; /* Adjust the width as needed */
+}
+
+/* customizing the short horizontal line with 2 circles at the ends */
+.custom-line {
+     height: 4px;
+    background-color: orange;
+    position: relative;
+}
+
+.custom-line::before,
+.custom-line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.custom-line::before {
+    left: -10px;
+}
+
+.custom-line::after {
+    right: -10px;
+}
+
+/* Custom hover effect */
+.hover-scale:hover {
+transform: scale(1.009); /* Adjust the scale/increase in size as needed */
+    transition: transform 0.5s ease-in-out; /* Adjust the transition speed */
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2); /* Adjust the box shadow color and intensity */
+}
+
+/* my notes to remember
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    This property adds a shadow effect to the element.
+    0 sets the horizontal offset of the shadow to 0 pixels.
+    2px sets the vertical offset of the shadow to 2 pixels.
+    4px sets the blur radius of the shadow to 4 pixels.
+    rgba(0, 0, 0, 0.2) defines the color and transparency of the shadow. Here,
+    it's a slightly transparent black color (rgba(0, 0, 0)) with an alpha value of 0.2,
+    making it partially transparent. */
+
+
+
+    /* Adding with to the div with image:  Adding the segment for the side selection and item display */
+    .container-item {
+    /* background-color: red !important; */
+    width: 90%;
+    margin: auto;
+    }
+
+
+
+    /* styling the stars */
+    .star-rating {
+    font-size: 18px; /* Adjust size as needed */
+    }
+
+    .star {
+    color: #ddd; /* Default star color */
+    }
+
+    .star.filled {
+    color: #F68B1E; /* Filled star color */
+    }
+
+    /* rating number on the stars */
+    .rating-number {
+        font-size: 14px; /* Adjustment of  size as needed */
+        color: #333; /* Text color */
+        margin-left: 5px; /* Adjustment of spacing */
+        }
+
+
+
+/* Designing add to cart hover */
+    /* Custom hover effect */
+    .hover-scale:hover {
+        transform: scale(1.001); /* Adjust the scale/increase in size as needed */
+        transition: transform 0.8s ease-in-out; /* Adjust the transition speed */
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2); /* Adjust the box shadow color and intensity */
+        padding-bottom: 40px;
+    }
+
+
+    /* Add to Cart button styling */
+    .add-to-cart-btn {
+        display: none; /* Initially hidden */
+    }
+
+    /* Display the button when the product card is hovered */
+    .hover-scale:hover .add-to-cart-btn {
+        display: block;
+        position: absolute;
+        height: 45px; /*moves the add to cart button*/
+        bottom: 0px; /* Add margin to the bottom */
+        left: 0;
+        width: 100%; /**moves the add to cart button*/
+        padding: 3px; /* Larger padding of the cart button*/
+        color: #fff; /* White text color */
+        text-align: center;
+        border-radius: 10px; /* Add border radius */
+    }
+
+    /* Margin between Nk Express and Add to Cart button */
+    .hover-scale:hover .zando-express {
+        margin-bottom: 50px;
+    }
+
+
+    /* customizing my background colour */
+    .bg-custom-gray-medium {
+        background-color: #e0e0e0; /* Light gray */
+    }
+
+    /* styling my hover for the sort by */
+    .hover:hover{
+        color: #F68B1E;
+    }
+
+    .custom-search {
+    border-radius: 10px; /* Adjust the border radius as needed */
+    width: 50px; /* Adjust the width as needed */
+    }
+
+   /* customizing the short horizontal line with 2 circles at the ends */
+    .custom-line {
+         height: 4px;
+        background-color: orange;
+        position: relative;
+    }
+
+    .custom-line::before,
+    .custom-line::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        background-color: orange;
+        border-radius: 50%;
+    }
+
+    .custom-line::before {
+        left: -10px;
+    }
+
+    .custom-line::after {
+        right: -10px;
+    }
+
+
+    /* styling the star-filled in the product rating of the div with col-md-3 */
+    /* Star styling */
+    .star-filled {
+         color: #F68B1E; /* Orange color */
+    }
+
+
+
+
+    /* Custom hover effect */
+   .hover-scale:hover {
+    transform: scale(1.009); /* Adjust the scale/increase in size as needed */
+        transition: transform 0.5s ease-in-out; /* Adjust the transition speed */
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2); /* Adjust the box shadow color and intensity */
+    }
+
+    /* my notes to remember
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        This property adds a shadow effect to the element.
+        0 sets the horizontal offset of the shadow to 0 pixels.
+        2px sets the vertical offset of the shadow to 2 pixels.
+        4px sets the blur radius of the shadow to 4 pixels.
+        rgba(0, 0, 0, 0.2) defines the color and transparency of the shadow. Here,
+        it's a slightly transparent black color (rgba(0, 0, 0)) with an alpha value of 0.2,
+        making it partially transparent. */
+
+
+        /* styling the stars */
+        .star-rating {
+        font-size: 18px; /* Adjust size as needed */
+        }
+
+        .star {
+        color: #ddd; /* Default star color */
+        }
+
+        .star.filled {
+        color: #F68B1E; /* Filled star color */
+        }
+
+        /* rating number on the stars */
+        .rating-number {
+            font-size: 14px; /* Adjustment of  size as needed */
+            color: #333; /* Text color */
+            margin-left: 5px; /* Adjustment of spacing */
+            }
+
+
+
+    /* Designing add to cart hover */
+        /* Custom hover effect */
+        .hover-scale:hover {
+            transform: scale(1.001); /* Adjust the scale/increase in size as needed */
+            transition: transform 0.8s ease-in-out; /* Adjust the transition speed */
+            box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2); /* Adjust the box shadow color and intensity */
+            padding-bottom: 40px;
+        }
+
+
+        /* Add to Cart button styling */
+        .add-to-cart-btn {
+            display: none; /* Initially hidden */
+        }
+
+        /* Display the button when the product card is hovered */
+        .hover-scale:hover .add-to-cart-btn {
+            display: block;
+            position: absolute;
+            height: 45px; /*moves the add to cart button*/
+            bottom: 0px; /* Add margin to the bottom */
+            left: 0;
+            width: 100%; /**moves the add to cart button*/
+            padding: 3px; /* Larger padding of the cart button*/
+            color: #fff; /* White text color */
+            text-align: center;
+            border-radius: 10px; /* Add border radius */
+        }
+
+        /* Margin between Zando Express and Add to Cart button */
+        .hover-scale:hover .zando-express {
+            margin-bottom: 50px;
+        }
+
+        
+
+        /* Adding the cardcontainer and menubar buttons for scrolls of the card and the menu-bar */
+        .combine {
+    width: 30%;
+    border-radius: 3px;
+    }
+
+    /* Scoped styles for .pro-select to avoid affecting other elements */
+    .pro-select {
+        display: flex; /* Ensures the layout is horizontal with menu-bar and cardContainer */
+        position: relative; /* Add position relative */
+        height: 50vh; /* Set a fixed height */
+    }
+
+    /* Menu bar styles */
+    .pro-select .menu-bar {
+        position: sticky;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #D3D3D3;
+        color: #fff;
+        padding-top: 20px;
+        height: 46vh;
+        margin-top: 19px;
+        border-radius: 10px;
+        width: 55%;
+        transition: all 0.5s;
+        /* border-right: 1px solid #ccc; /* Line separating menu-bar and cardContainer */
+    }
+
+
+    /* Adding spaces (margin top and bottom between the images of the product displayed) */
+    .product-item {
+        margin-top: 30px; 
+        margin-bottom: 30px; 
+    }
+    
+
+    /* Making the images of the products to have equal width and height */
+    .product-item img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        padding: 15px;
+        /* margin-right: 20px; */
+        /* margin-left: 10px; */
+    }
+
+
+
+    /* Menu bar hover styles */
+    .pro-select .menu-bar:hover {
+        width: 60%; /* Expand width slightly on hover */
+    }
+
+    /* List item styles inside menu-bar */
+    .pro-select .menu-bar ul li {
+        padding: 8px; /* Add space around list items */
+        margin: 2px 0;
+    }
+
+    /* Hover effect for list items */
+    .pro-select .menu-bar ul li:hover {
+        /* background-color: white; */
+        /* padding: 8px; /* Set padding */
+        border-radius: 4px; /* Set border radius back to initial value */
+    }
+
+    /* Hover effect for links inside menu-bar */
+    .pro-select .menu-bar li a:hover {
+        /* color: black; */
+        font-size: 20px;
+        /* background-color: red; */
+    }
+
+    /* Link styles inside menu-bar */
+    .pro-select .menu-bar ul li a {
+        color: black;
+        font-weight: bold;
+    }
+
+    /* Flex display for links inside menu-bar */
+    .pro-select .menu-bar ul a {
+        padding: 15px;
+        display: flex; /* Makes them flexible */
+        gap: 20px; /* Add gap between the icon and name */
+    }
+
+    /* Icon styles inside menu-bar links */
+    .pro-select .menu-bar ul i {
+        font-size: 20px;
+    }
+
+    /* Unordered list styles inside menu-bar */
+    .pro-select .menu-bar ul {
+        height: 10vh;
+        position: relative; /* Position the sign-out under the ul */
+        width: 70%;
+    }
+
+    /* Styling for the card's unordered list */
+    .pro-select .list-unstyled {
+        height: 10vh;
+        position: relative; /* Position the sign-out under the ul */
+        width: 70%;
+    }
+
+    /* Styles for the span inside menu-bar links */
+    .pro-select .menu-bar .ul a span {
+        overflow: hidden; /* Hide overflow in span */
+    }
+
+    /* Card styles */
+    .pro-select .card {
+        border: 1px solid #ccc;
+        margin: 20px;
+        width: 180%;
+        padding: 10px;
+        height: 50vh;
+        border-radius: 2px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+
+    /* Adding gaps in-between each li of the card container */
+    .pro-select .list-unstyled li {
+        margin-bottom: 20px; /* Adjust the value as needed */
+    }
+
+
+
+    /* Heading link styles */
+    .pro-select .heading.text-decoration-none.text-secondary {
+        color: black;
+        text-decoration: none;
+    }
+
+    /* Hover effect for heading links */
+    .pro-select .heading.text-decoration-none.text-secondary:hover {
+        color: orange !important;
+        font-size: 17.5px;
+    }
+
+
+    /* Hover effect for body links */
+    .pro-select .body.text-decoration-none.text-secondary:hover {
+        color: black !important;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    /* Styling the underline on heading links */
+    .pro-select .heading u::after {
+        content: '';
+        display: block;
+        width: 145%; /* Adjust the width for the desired underline length */
+        height: 1px; /* Adjust the height for the desired underline thickness */
+        background-color: gray; /* Color for the underline */
+        position: absolute;
+        bottom: -4px; /* Adjust the bottom value to control the length of the underline */
+        left: 0;
+    }
+
+    /* Adjusting underline position */
+    .pro-select .heading u::after {
+        position: relative;
+        text-decoration: none;
+    }
+
+    /* Width adjustment for underline on hover */
+    .pro-select .heading u::after {
+        width: 150%; /* Adjust the width for the desired underline length on hover */
+    }
+
+    /* Visibility and positioning for cardContainer */
+    .pro-select #cardContainer {
+        display: none;
+        position: absolute; /* Positioned relative to the pro-select container */
+        top: 0;
+        left: 60%; /* Position it to start after the .menu-bar container extend */
+        height: 50vh; /* Match the height of the menu-bar */
+        z-index: 1;
+        /* border-left: 1px solid #ccc; /* Line separating cardContainer from menu-bar */
+    }
+
+    /* Adjustments for small screens */
+    @media (max-width: 768px) {
+        .pro-select .card .col-md-3 {
+            flex: 0 0 50%; /* Each column takes 50% width on smaller screens */
+            max-width: 50%;
+        }
+    }
+

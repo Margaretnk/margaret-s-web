@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nk Fabrics and Stitches cart</title>
+  <link rel="stylesheet" href="shopping-cart.css">
+  <!-- font awesome link -->
+  <script src="https://kit.fontawesome.com/4e4113349d.js" crossorigin="anonymous"></script>
+  <!-- cdn gotten from icons.getbootstrap.com -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="index-new.css">
+ 
+</head>
+
+<body>
+
+  <!-- Nav-bar -->
+  <div class="navbar">
+    <!-- my logo -->
+    <a href="indexcart.html" style="display: inline-block;">
+        <h2 style="display: inline; ">Nk's Fabrics and Stitches</h2>
+        <img src="project-images/Nk logo.jpg" alt="" width="35px" height="35px" style="border-radius: 50%;" class="logo">
+    </a>
+
+
+    <!-- This contains the four select btns or sessions -->
+    <div class="menu-bar" id="menuBar">
+
+      <ul id="home" class="home">
+        <li>
+            <a class="text-decoration-none" href="index.html">
+              <i class="fa-solid fa-house fa-lg"></i>
+            </a>
+        </li>
+    </ul>
+
+      <!-- The ul containing the links and icons at the side-bar still inside the menu-bar-->
+      <ul id="allCategory" class="category allCategory">
+          <li>
+              <a class="text-decoration-none" href="#">
+                  <i class="fa-brands fa-google-wallet fa-beat"></i>
+                  <span>All</span>
+              </a>
+          </li>
+      </ul>
+
+      <!-- I have to use class so i can use same workings in js to categorize the selection as id wasnt giving me that -->
+      <ul id="fabricsCategory" class="category fabricsCategory">
+          <li>
+              <a class="text-decoration-none" href="#">
+                  <i class="fa-brands fa-phabricator fa-beat-fade"></i>
+                  <span>Fabrics</span>
+              </a>
+          </li>
+      </ul>
+
+      <ul id="readyToWearCategory" class="category readyToWearCategory">
+          <li>
+              <a class="text-decoration-none" href="#">
+                  <i class="fa-solid fa-person-dress fa-beat"></i>
+                  <span>Ready-to-wear</span>
+              </a>
+          </li>
+      </ul>
+
+      <ul id="bagsCategory" class="category bagsCategory">
+          <li>
+              <a class="text-decoration-none" href="#">
+                  <i class="fa-solid fa-bag-shopping fa-beat-fade"></i>
+                  <span>Bags</span>
+              </a>
+          </li>
+      </ul>
+  </div>
+
+    
+
+    <a href="shopping-cartpage.html">
+        <!-- Designing the cart and number to count with an initial of 0 -->
+      <div class="cart">
+        <i class="bi bi-cart2"></i>
+        <!-- icons.getbootstrap.com -->
+        <div id="cartAmount" class="cartAmount">0</div>
+
+      </div>
+    </a>
+
+
+  </div>
+
+  <!-- Designing the shop for the product display -->
+  <div class="shop" id="shop">
+    <!-- Adding 4 divs to display the items -->
+
+    <!-- 1st item div -->
+    <!-- <div class="item">
+      <img src="fabrics-collection/adire2-8500.jpg" alt="">
+      <div class="detail">
+        <h3>Adire</h3>
+        <p>A beautiful cotton fabric with vibrant Adire patterns (6yrds).</p> <br>
+        <p>Fabrics</p> <br>
+        <div class="price-quantity"> 
+          <h3>N9500</h2>
+          <div class="buttons"> -->
+            <!-- plus from icons.getbootstrap.com -->
+            <!-- <i class="bi bi-plus-lg"></i> -->
+            <!-- To apply increment and decrement  when the + and - is used -->
+            <!-- <div id="shop" class="quantity">0</div> -->
+            <!-- minus -->
+            <!-- <i class="bi bi-dash-lg"></i> -->
+            <!-- buttons -->
+          <!-- </div>
+        </div>
+      </div>
+    </div> -->
+
+
+    <!-- 2nd item div -->
+    <!-- <div class="item">
+      <img src="Ready-to-wear/bigmadambubu-22k.jpg" alt="">
+      <div class="detail">
+        <h3>Ready-to-wear</h3>
+        <p>Bubu(long-gown) [Size(8,10,12,14)].</p> <br>
+        <p>Ready-to-wear</p> <br>
+        <div class="price-quantity">
+          <h3>N22500</h2>
+          <div class="buttons"> -->
+            <!-- plus from icons.getbootstrap.com -->
+            <!-- <i class="bi bi-plus-lg"></i> -->
+            <!-- To apply increment and decrement  when the + and - is used -->
+            <!-- <div class="quantity">0</div> -->
+            <!-- minus -->
+            <!-- <i class="bi bi-dash-lg"></i> -->
+            <!-- buttons -->
+          <!-- </div>
+        </div>
+      </div>
+    </div> -->
+
+
+    <!-- 3rd item div -->
+    <!-- <div class="item">
+      <img src="Bags-Collection/ankara-chainbag-18k.jpg" alt="">
+      <div class="detail">
+        <h3>Purse/Souvenir purse </h3>
+        <p>Beautiful Ankara chainbag</p> <br>
+        <p>Bags</p> <br>
+        <div class="price-quantity">
+          <h3>N18000</h2>
+          <div class="buttons">  -->
+            <!-- plus from icons.getbootstrap.com -->
+            <!-- <i class="bi bi-plus-lg"></i> -->
+            <!-- To apply increment and decrement  when the + and - is used -->
+            <!-- <div class="quantity">0</div> -->
+            <!-- minus -->
+            <!-- <i class="bi bi-dash-lg"></i> -->
+            <!-- buttons -->
+          <!-- </div>
+        </div>
+      </div>
+    </div> -->
+
+
+    <!-- 4th item div -->
+    <!-- <div class="item">
+      <img src="Bags-Collection/lunch-supreme-15k.jpg" alt="">
+      <div class="detail">
+        <h3>Lunch box </h3>
+        <p>Insulated Lunch box.</p>  <br>
+        <p>Bags</p> <br>
+        <div class="price-quantity">
+          <h3>N12000</h2>
+          <div class="buttons"> -->
+            <!-- plus from icons.getbootstrap.com -->
+            <!-- <i class="bi bi-plus-lg"></i> -->
+            <!-- To apply increment and decrement  when the + and - is used -->
+            <!-- <div class="quantity">0</div> -->
+            <!-- minus -->
+            <!-- <i class="bi bi-dash-lg"></i> -->
+            <!-- buttons -->
+          <!-- </div>
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+
+
+  <!-- Footer -->
+  <footer id="footer" class="footer-div">
+      <div class="container my-2">
+          <div class="row gx-5">
+              <!-- Column 1: Nk Fabrics and Stitches -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                  <h3>Nk's Fabrics and Stitches
+                      <img src="project-images/Nk logo.jpg" alt="" width="40px" height="40px" style="border-radius: 50%;" class="logo me-5">
+                  </h3>
+                  <p>
+                      Location: <br>
+                      Address: 22 Tokunbo Ajala, Off Victory Estate <br>
+                      City: Ikeja, Lagos. <br>
+                      Country: Nigeria <br>
+                      <strong>Phone:</strong> +2348063222975<br>
+                      <strong>Email:</strong> margaretnkechi1@gmail.com<br>
+                  </p>
+              </div>
+
+              <!-- Column 2: Join Us On -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                  <h4>JOIN US ON:</h4>
+                  <div class="social-links">
+                      <a href="https://twitter.com/margaretnkechi0?t=t_ZeVaOavPyapxOPJQCvvA&s=09" class="twitter"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                      <a href="https://www.facebook.com/margaret.okpara.71" class="facebook"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                      <a href="https://www.instagram.com/margaret10691" class="instagram"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                  </div>
+                  <div class="additional-info mt-5">
+                      <p><i class="fa-solid fa-truck"></i> Delivery</p>
+                      <p><i class="fa-solid fa-hand-holding-usd"></i> Pay cash on delivery</p>
+                      <p><i class="fa-solid fa-tags"></i> Great products at unbeatable prices</p>
+                  </div>
+              </div>
+
+              <!-- Column 3: New to Nk Fabrics? -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                  <h4>New to Nk fabrics?</h4>
+                  <p>Subscribe to our newsletter to get updates on our latest offers and more.</p>
+                  <form action="#" method="post">
+                      <div class="input-group mb-3">
+                          <input type="email" class="form-control" id="email" placeholder="Enter your Email Address" 
+                          aria-label="Your Email Address" aria-describedby="basic-addon2" name="email" autocomplete="email">
+                          <button class="btn btn-primary" type="submit"><i class="fa-solid fa-envelope-circle-check fa-beat fa-sm"></i> Subscribe</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+  <script src="cart-data.js"></script>
+  <script src="shopping-cart.js"></script>
+  <script src="menu-bar.js"></script>
+  <!-- <script src="cart-page.js"></script> -->
+
+</body>
+
+</html>
